@@ -15,4 +15,4 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!')
     print(f'{guild.name}(id: {guild.id})')
 
-client.run(str(TOKEN))
+client.run(TOKEN)
